@@ -1,0 +1,7 @@
+{
+    ", URI: ": "，資訊來源：",
+    "All resource routes have matching controller methods.": "所有資源路由都有對應的控制器方法。",
+    "Controller: ": "控制器：",
+    "Method: ": "方法：",
+    "The following resource routes do not have a matching matching controller method.": "以下資源路由沒有對應的控制器方法。"
+}
