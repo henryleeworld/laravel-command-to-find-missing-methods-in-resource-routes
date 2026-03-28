@@ -1,4 +1,4 @@
-# Laravel 11 用於尋找資源路由中遺漏方法的命令
+# Laravel 12 用於尋找資源路由中遺漏方法的命令
 
 路由是指應用程式的網址和相應的控制器方法之間的對應。每當用戶訪問一個網址時，會查找與該網址對應的路由，並執行相應的控制器方法。
 
@@ -24,5 +24,5 @@ $ php artisan route:check-resources
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/56D3cPo.png)
+![](https://i.imgur.com/HKR8HSU.png)
 > 避免資源路由找不到對應的控制器方法

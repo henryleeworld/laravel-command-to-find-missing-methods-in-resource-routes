@@ -25,9 +25,9 @@ class CheckResourceRoutes extends Command
     /**
      * Execute the console command.
      */
-    public function handle(): void
+    public function handle()
     {
-	        $resourceRoutes = collect(Route::getRoutes())->filter(function ($route) {
+        $resourceRoutes = collect(Route::getRoutes())->filter(function ($route) {
             return $route->getActionName() !== 'Closure' &&
                 strpos($route->getActionName(), '@') !== false;
         });
